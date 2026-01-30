@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (musicStarted) return;
 
     musicStarted = true;
-    music.currentTime = 20
+    music.currentTime = 15
     music.play();
 
     let volume = 0;
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
     yes: [
       "I hope that happiness feels calm and real.\nYou always deserved peace.",
       "really ? so what you are waiting for ?",
-      "yes only feel kar but steps mat le .",
+      "So why to dont contact me ? are you waiting for me . .",
       "Maybe timing spoke louder than feelings.\nThat happens."
     ],
     no: [
@@ -146,3 +146,4 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
 });
+
