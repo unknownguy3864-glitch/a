@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (musicStarted) return;
 
     musicStarted = true;
-    music.currentTime = 15
+    music.currentTime = 20
     music.play();
 
     let volume = 0;
